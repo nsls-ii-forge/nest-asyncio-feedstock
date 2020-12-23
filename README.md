@@ -5,9 +5,13 @@ Home: https://github.com/erdewit/nest_asyncio
 
 Package license: BSD-2-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/nsls-ii-forge/nest-asyncio-feedstock/blob/master/LICENSE.txt)
 
 Summary: Patch asyncio to allow nested event loops
+
+Development: https://github.com/erdewit/nest_asyncio
+
+Documentation: https://github.com/erdewit/nest_asyncio
 
 By design asyncio does not allow its event loop to be nested.
 This presents a practical problem - when in an environment where the event loop is already running it's impossible to run tasks and wait for the result.
